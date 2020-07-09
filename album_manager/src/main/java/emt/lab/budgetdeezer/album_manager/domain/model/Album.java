@@ -86,6 +86,8 @@ public class Album extends AbstractEntity<AlbumId> {
 
         this.songs.add(song);
         this.active = true;
+
+        song.setAlbum(this);
         return song;
     }
 
@@ -128,4 +130,6 @@ public class Album extends AbstractEntity<AlbumId> {
         var other = (Album) obj;
         return this.getId() != null && this.getId().equals(other.getId());
     }
+
+
 }

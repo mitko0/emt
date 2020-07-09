@@ -10,6 +10,7 @@
         <module name="album_manager" />
         <module name="BudgetDeezer" />
         <module name="shared_kernel" />
+        <module name="emt" />
         <module name="artist_manager" />
       </profile>
     </annotationProcessing>
